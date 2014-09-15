@@ -28,3 +28,6 @@ PATH = replace it with full path to the website folder ie: "/var/www/my_project"
 
 
 
+In case it will return an error for "expected" library. Just install the lib.
+
+apt-get install expect
