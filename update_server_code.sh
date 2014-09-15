@@ -10,7 +10,7 @@ spawn ssh "$user\@$ip"
 expect "assword:"
 send "$password\r";
 expect -re $prompt
-send -- "cd $path/bny-boat-production/aml-bny-boatrace2014\r"
+send -- "cd $path\r"
 expect -re $prompt
 send -- "git init\r"
 expect -re $prompt
